@@ -33,3 +33,20 @@ nav {
 #element {
     color: rgb(173, 111, 231) ;
 }
+
+.secondSection{
+    margin: auto;
+    width : 30vw;}
+    .secondSection  hr{
+        color: rgb(55, 43, 66);
+        border-color: rgb(149, 168, 202);
+        height: .9px;
+        background-color: rgb(149, 168, 202);
+        margin :30px;
+      
+    }
+    .secondSection h1{
+        font-style: oblique;
+        display: flex;
+        justify-content: center;
+    }
