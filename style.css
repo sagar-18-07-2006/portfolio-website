@@ -18,3 +18,18 @@ nav {
     background-color: rgb(18, 18, 62);
 
 }
+.leftSection {
+  
+    font-size: 3rem;
+}
+
+.rightSection img {
+  width :80%;
+ 
+}
+.purple{
+    color: rgb(173, 111, 231) ;
+}
+#element {
+    color: rgb(173, 111, 231) ;
+}
