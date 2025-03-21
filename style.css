@@ -16,37 +16,64 @@ nav {
     align-items: center;
     height: 80px;
     background-color: rgb(18, 18, 62);
+ 
 
 }
+
 .leftSection {
-  
+   margin-right: 30px;
     font-size: 3rem;
 }
 
 .rightSection img {
-  width :80%;
- 
-}
-.purple{
-    color: rgb(173, 111, 231) ;
-}
-#element {
-    color: rgb(173, 111, 231) ;
+  height :30vh;
+
+
 }
 
-.secondSection{
+.purple {
+    color: rgb(173, 111, 231);
+}
+
+#element {
+    color: rgb(173, 111, 231);
+}
+
+.secondSection {
     margin: auto;
-    width : 30vw;}
-    .secondSection  hr{
-        color: rgb(55, 43, 66);
-        border-color: rgb(149, 168, 202);
-        height: .9px;
-        background-color: rgb(149, 168, 202);
-        margin :30px;
-      
-    }
-    .secondSection h1{
-        font-style: oblique;
-        display: flex;
-        justify-content: center;
-    }
+    width: 30vw;
+}
+
+.secondSection hr {
+    color: rgb(55, 43, 66);
+    border-color: rgb(149, 168, 202);
+    height: .9px;
+    background-color: rgb(149, 168, 202);
+    margin: 30px;
+
+}
+
+.secondSection h1 {
+    font-style: oblique;
+    display: flex;
+    justify-content: center;
+} 
+nav div ul{
+  
+    display: flex;
+    justify-content: space-around;
+}
+nav div ul li{
+    margin-right:40px ;
+    list-style: none;
+
+}
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    margin: 80px 30px 0 0;
+}
+nav div ul li a{
+    text-decoration: none;
+    color: inherit;
+}
