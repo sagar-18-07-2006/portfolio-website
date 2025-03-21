@@ -16,17 +16,23 @@ nav {
     align-items: center;
     height: 80px;
     background-color: rgb(18, 18, 62);
- 
+
 
 }
 
-.leftSection {
-   margin-right: 30px;
-    font-size: 3rem;
+.firstSection.leftSection  {
+    margin-right: 30px;
+    
+}
+
+.firstSection.leftSection  div{
+    margin-right: 30px;
+    font-size: larger;
+    
 }
 
 .rightSection img {
-  height :30vh;
+    height: 30vh;
 
 
 }
@@ -42,6 +48,7 @@ nav {
 .secondSection {
     margin: auto;
     width: 30vw;
+
 }
 
 .secondSection hr {
@@ -57,23 +64,46 @@ nav {
     font-style: oblique;
     display: flex;
     justify-content: center;
-} 
-nav div ul{
-  
+    margin-top: 20px ;
+   
+}
+
+
+nav div ul {
+
     display: flex;
     justify-content: space-around;
 }
-nav div ul li{
-    margin-right:40px ;
+
+nav div ul li {
+    margin-right: 40px;
     list-style: none;
 
 }
-.firstSection{
+
+.firstSection {
     display: flex;
     justify-content: space-around;
     margin: 80px 30px 0 0;
 }
-nav div ul li a{
+
+nav div ul li a {
     text-decoration: none;
     color: inherit;
+}
+.secondSection div img{
+  height: 30vh;
+}
+.thirdSection{
+    display:flex;
+    justify-content: space-around;
+    margin :30px 0 0 0;
+}
+.thirdSection div ul li a{
+    text-decoration: none;
+}
+
+
+.thirdSection .leftSection img{
+    height: 35vh;
 }
